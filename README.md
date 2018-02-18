@@ -1,2 +1,2 @@
-# Esercizio_Funzioni_C-
+# Esercizio Funzioni C Sharp
 Funzioni in C#
