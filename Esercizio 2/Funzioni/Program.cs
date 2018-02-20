@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace es2
+namespace Funzioni
 {
     class Program
     {
@@ -21,7 +21,7 @@ namespace es2
 
             do
             {
-                switch(menù())
+                switch (menù())
                 {
                     case 1: { Console.Clear(); visualizzaTemperature(temperature); break; }
                     case 2: { Console.Clear(); media(temperature); break; }
@@ -86,7 +86,7 @@ namespace es2
                 somma += t[i, 1];
             }
 
-            Console.WriteLine("La media delle temperature massime è: " + somma/GIORNI);
+            Console.WriteLine("La media delle temperature massime è: " + somma / GIORNI);
             Console.ReadKey();
         }
 
@@ -109,5 +109,5 @@ namespace es2
             );
             Console.ReadKey();
         }
-    }     
+    }
 }
