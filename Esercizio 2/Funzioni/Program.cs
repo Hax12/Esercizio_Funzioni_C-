@@ -42,7 +42,6 @@ namespace Funzioni
                 Console.Write("Giorno " + g + ": (Temperatura Massima): ");
                 t[i, 1] = float.Parse(Console.ReadLine());
             }
-
             /*
                 Random r = new Random();
                 for (int i = 0; i < GIORNI; i++)
