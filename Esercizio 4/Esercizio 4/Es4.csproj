@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{ABAE6503-F7A1-4209-859D-89FD6C67254B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Esercizio_4</RootNamespace>
-    <AssemblyName>Esercizio 4</AssemblyName>
+    <RootNamespace>Es4</RootNamespace>
+    <AssemblyName>Es4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

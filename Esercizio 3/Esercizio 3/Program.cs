@@ -4,28 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ES_6_pg_22
+namespace Es3
 {
     class Program
     {
-         //******MAIN PROGRAM******
+        //******MAIN PROGRAM******//
 
         static void Main(string[] args)
         {
             int Numero = 0;
             double area;
-            switch(scelta(Numero))
+            switch (scelta(Numero))
             {
-                case 1: area=areaQuadrato(); break;
-                case 2: area=areaCerchio(); break;
-                default:Console.WriteLine("IL NUMERO INSERITO NON è VALIDO"); break;
+                case 1: area = areaQuadrato(); break;
+                case 2: area = areaCerchio(); break;
+                default: Console.WriteLine("IL NUMERO INSERITO NON è VALIDO"); break;
             }
             Console.ReadKey();
-
         }
-
-        
-
 
         //******FUNZIONI******//
 
@@ -48,15 +44,15 @@ namespace ES_6_pg_22
         {
             int Raggio;
             double area;
-            const double PI=3.14;
+            const double PI = 3.14;
             Console.WriteLine("INSERISCI IL VALORE DEL RAGGIO");
             Raggio = Convert.ToInt32(Console.ReadLine());
             if (Raggio <= 0)
-            {   
+            {
                 Console.WriteLine("ERRORE RAGGIO NON VALIDO");
             }
 
-            area = Raggio*Raggio*PI;
+            area = Raggio * Raggio * PI;
             Console.WriteLine("L'AREA E' DI.." + area);
             return area;
         }
