@@ -1,0 +1,13 @@
+ Il tris (noto anche come filetto, fila tre, crocetta e pallino, zero per, cerchi e croci, tria, OXO, XOXO)
+ è un popolarissimo gioco di carta e matita astratto a informazione perfetta. Si gioca su una griglia quadrata
+ di 3×3 caselle.
+ A turno, i giocatori scelgono una cella vuota e vi disegnano il proprio simbolo (di solito un giocatore ha come
+ simbolo una "X" e l'avversario un cerchio). Vince il giocatore che riesce a disporre tre dei propri simboli in
+ linea retta orizzontale, verticale o diagonale. Se la griglia viene riempita senza che nessuno dei giocatori sia
+ riuscito a completare una linea retta di tre simboli, il gioco finisce in parità. Nel caso in cui il gioco finisse 
+ in parità, la partita è detta "patta", come nel gioco da tavolo degli scacchi.
+
+
+
+Allora per il progetto avevo pensato di fare il gioco del tris, ma fatto bene, sia Player vs Player, che Player vs PC
+deve essere fatto bene anche graficamente.
